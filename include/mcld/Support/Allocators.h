@@ -15,6 +15,8 @@
 #include "mcld/ADT/Uncopyable.h"
 #include "mcld/ADT/TypeTraits.h"
 #include "mcld/LD/LDContext.h"
+
+#include <cstddef>
 #include <cstdlib>
 
 namespace mcld
@@ -436,4 +438,3 @@ public:
 } // namespace mcld
 
 #endif
-

@@ -12,6 +12,8 @@
 #include <gtest.h>
 #endif
 
+#include <cstddef>
+
 #include "mcld/ADT/TypeTraits.h"
 #include "mcld/Support/FileSystem.h"
 #include "mcld/Support/Path.h"
