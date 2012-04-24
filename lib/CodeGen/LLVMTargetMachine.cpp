@@ -273,6 +273,7 @@ bool mcld::LLVMTargetMachine::addCompilerPasses(PassManagerBase &pPM,
 
   MCInstPrinter *InstPrinter =
     getTarget().get()->createMCInstPrinter(MAI.getAssemblerDialect(), MAI,
+                                           *(getTM().getInstrInfo()),
                                            Context->getRegisterInfo(), STI);
 
   MCCodeEmitter* MCE = 0;
